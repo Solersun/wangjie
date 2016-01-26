@@ -6,6 +6,7 @@
 //  Copyright © 2016年 Jane. All rights reserved.
 //
 
+
 #import "DataBaseManager.h"
 #import "FMDB.h"
 #import "StudentModel.h"
@@ -21,7 +22,7 @@
 
 @implementation DataBaseManager
 
-
+//测试内容
 
 +(instancetype)shareManager{
     /*
