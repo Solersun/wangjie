@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2382031C5B52F5000E09EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2382021C5B52F5000E09EF /* main.m */; };
+		BC2382061C5B52F5000E09EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2382051C5B52F5000E09EF /* AppDelegate.m */; };
+		BC2382091C5B52F5000E09EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2382081C5B52F5000E09EF /* ViewController.m */; };
+		BC23820C1C5B52F5000E09EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC23820A1C5B52F5000E09EF /* Main.storyboard */; };
+		BC23820E1C5B52F5000E09EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC23820D1C5B52F5000E09EF /* Assets.xcassets */; };
+		BC2382111C5B52F5000E09EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC23820F1C5B52F5000E09EF /* LaunchScreen.storyboard */; };
+		BC23821C1C5B52F5000E09EF /* __UDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC23821B1C5B52F5000E09EF /* __UDPTests.m */; };
+		BC2382271C5B52F5000E09EF /* __UDPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2382261C5B52F5000E09EF /* __UDPUITests.m */; };
+		BC2382371C5B56AB000E09EF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2382361C5B56AB000E09EF /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2382181C5B52F5000E09EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2381F61C5B52F5000E09EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2381FD1C5B52F5000E09EF;
+			remoteInfo = "3-UDP";
+		};
+		BC2382231C5B52F5000E09EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2381F61C5B52F5000E09EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2381FD1C5B52F5000E09EF;
+			remoteInfo = "3-UDP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2381FE1C5B52F5000E09EF /* 3-UDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3-UDP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2382021C5B52F5000E09EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2382041C5B52F5000E09EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC2382051C5B52F5000E09EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC2382071C5B52F5000E09EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC2382081C5B52F5000E09EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC23820B1C5B52F5000E09EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC23820D1C5B52F5000E09EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2382101C5B52F5000E09EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2382121C5B52F5000E09EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2382171C5B52F5000E09EF /* 3-UDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3-UDPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC23821B1C5B52F5000E09EF /* __UDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UDPTests.m; sourceTree = "<group>"; };
+		BC23821D1C5B52F5000E09EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2382221C5B52F5000E09EF /* 3-UDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3-UDPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2382261C5B52F5000E09EF /* __UDPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UDPUITests.m; sourceTree = "<group>"; };
+		BC2382281C5B52F5000E09EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2382351C5B56AB000E09EF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BC2382361C5B56AB000E09EF /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2381FB1C5B52F5000E09EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2382141C5B52F5000E09EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC23821F1C5B52F5000E09EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2381F51C5B52F5000E09EF = {
+			isa = PBXGroup;
+			children = (
+				BC2382001C5B52F5000E09EF /* 3-UDP */,
+				BC23821A1C5B52F5000E09EF /* 3-UDPTests */,
+				BC2382251C5B52F5000E09EF /* 3-UDPUITests */,
+				BC2381FF1C5B52F5000E09EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2381FF1C5B52F5000E09EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2381FE1C5B52F5000E09EF /* 3-UDP.app */,
+				BC2382171C5B52F5000E09EF /* 3-UDPTests.xctest */,
+				BC2382221C5B52F5000E09EF /* 3-UDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2382001C5B52F5000E09EF /* 3-UDP */ = {
+			isa = PBXGroup;
+			children = (
+				BC2382341C5B56AB000E09EF /* UDP */,
+				BC2382041C5B52F5000E09EF /* AppDelegate.h */,
+				BC2382051C5B52F5000E09EF /* AppDelegate.m */,
+				BC2382071C5B52F5000E09EF /* ViewController.h */,
+				BC2382081C5B52F5000E09EF /* ViewController.m */,
+				BC23820A1C5B52F5000E09EF /* Main.storyboard */,
+				BC23820D1C5B52F5000E09EF /* Assets.xcassets */,
+				BC23820F1C5B52F5000E09EF /* LaunchScreen.storyboard */,
+				BC2382121C5B52F5000E09EF /* Info.plist */,
+				BC2382011C5B52F5000E09EF /* Supporting Files */,
+			);
+			path = "3-UDP";
+			sourceTree = "<group>";
+		};
+		BC2382011C5B52F5000E09EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2382021C5B52F5000E09EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC23821A1C5B52F5000E09EF /* 3-UDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC23821B1C5B52F5000E09EF /* __UDPTests.m */,
+				BC23821D1C5B52F5000E09EF /* Info.plist */,
+			);
+			path = "3-UDPTests";
+			sourceTree = "<group>";
+		};
+		BC2382251C5B52F5000E09EF /* 3-UDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2382261C5B52F5000E09EF /* __UDPUITests.m */,
+				BC2382281C5B52F5000E09EF /* Info.plist */,
+			);
+			path = "3-UDPUITests";
+			sourceTree = "<group>";
+		};
+		BC2382341C5B56AB000E09EF /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				BC2382351C5B56AB000E09EF /* GCDAsyncUdpSocket.h */,
+				BC2382361C5B56AB000E09EF /* GCDAsyncUdpSocket.m */,
+			);
+			name = UDP;
+			path = ../UDP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2381FD1C5B52F5000E09EF /* 3-UDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC23822B1C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDP" */;
+			buildPhases = (
+				BC2381FA1C5B52F5000E09EF /* Sources */,
+				BC2381FB1C5B52F5000E09EF /* Frameworks */,
+				BC2381FC1C5B52F5000E09EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3-UDP";
+			productName = "3-UDP";
+			productReference = BC2381FE1C5B52F5000E09EF /* 3-UDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2382161C5B52F5000E09EF /* 3-UDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC23822E1C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDPTests" */;
+			buildPhases = (
+				BC2382131C5B52F5000E09EF /* Sources */,
+				BC2382141C5B52F5000E09EF /* Frameworks */,
+				BC2382151C5B52F5000E09EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2382191C5B52F5000E09EF /* PBXTargetDependency */,
+			);
+			name = "3-UDPTests";
+			productName = "3-UDPTests";
+			productReference = BC2382171C5B52F5000E09EF /* 3-UDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2382211C5B52F5000E09EF /* 3-UDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2382311C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDPUITests" */;
+			buildPhases = (
+				BC23821E1C5B52F5000E09EF /* Sources */,
+				BC23821F1C5B52F5000E09EF /* Frameworks */,
+				BC2382201C5B52F5000E09EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2382241C5B52F5000E09EF /* PBXTargetDependency */,
+			);
+			name = "3-UDPUITests";
+			productName = "3-UDPUITests";
+			productReference = BC2382221C5B52F5000E09EF /* 3-UDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2381F61C5B52F5000E09EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jane;
+				TargetAttributes = {
+					BC2381FD1C5B52F5000E09EF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BC2382161C5B52F5000E09EF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BC2381FD1C5B52F5000E09EF;
+					};
+					BC2382211C5B52F5000E09EF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BC2381FD1C5B52F5000E09EF;
+					};
+				};
+			};
+			buildConfigurationList = BC2381F91C5B52F5000E09EF /* Build configuration list for PBXProject "3-UDP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2381F51C5B52F5000E09EF;
+			productRefGroup = BC2381FF1C5B52F5000E09EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2381FD1C5B52F5000E09EF /* 3-UDP */,
+				BC2382161C5B52F5000E09EF /* 3-UDPTests */,
+				BC2382211C5B52F5000E09EF /* 3-UDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2381FC1C5B52F5000E09EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2382111C5B52F5000E09EF /* LaunchScreen.storyboard in Resources */,
+				BC23820E1C5B52F5000E09EF /* Assets.xcassets in Resources */,
+				BC23820C1C5B52F5000E09EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2382151C5B52F5000E09EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2382201C5B52F5000E09EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2381FA1C5B52F5000E09EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2382371C5B56AB000E09EF /* GCDAsyncUdpSocket.m in Sources */,
+				BC2382091C5B52F5000E09EF /* ViewController.m in Sources */,
+				BC2382061C5B52F5000E09EF /* AppDelegate.m in Sources */,
+				BC2382031C5B52F5000E09EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2382131C5B52F5000E09EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC23821C1C5B52F5000E09EF /* __UDPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC23821E1C5B52F5000E09EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2382271C5B52F5000E09EF /* __UDPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2382191C5B52F5000E09EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2381FD1C5B52F5000E09EF /* 3-UDP */;
+			targetProxy = BC2382181C5B52F5000E09EF /* PBXContainerItemProxy */;
+		};
+		BC2382241C5B52F5000E09EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2381FD1C5B52F5000E09EF /* 3-UDP */;
+			targetProxy = BC2382231C5B52F5000E09EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC23820A1C5B52F5000E09EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC23820B1C5B52F5000E09EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC23820F1C5B52F5000E09EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2382101C5B52F5000E09EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2382291C5B52F5000E09EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BC23822A1C5B52F5000E09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC23822C1C5B52F5000E09EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3-UDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC23822D1C5B52F5000E09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3-UDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC23822F1C5B52F5000E09EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "3-UDPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3-UDP.app/3-UDP";
+			};
+			name = Debug;
+		};
+		BC2382301C5B52F5000E09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "3-UDPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3-UDP.app/3-UDP";
+			};
+			name = Release;
+		};
+		BC2382321C5B52F5000E09EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "3-UDPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "3-UDP";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC2382331C5B52F5000E09EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "3-UDPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.--UDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "3-UDP";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2381F91C5B52F5000E09EF /* Build configuration list for PBXProject "3-UDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2382291C5B52F5000E09EF /* Debug */,
+				BC23822A1C5B52F5000E09EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC23822B1C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC23822C1C5B52F5000E09EF /* Debug */,
+				BC23822D1C5B52F5000E09EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC23822E1C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC23822F1C5B52F5000E09EF /* Debug */,
+				BC2382301C5B52F5000E09EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2382311C5B52F5000E09EF /* Build configuration list for PBXNativeTarget "3-UDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2382321C5B52F5000E09EF /* Debug */,
+				BC2382331C5B52F5000E09EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2381F61C5B52F5000E09EF /* Project object */;
+}
